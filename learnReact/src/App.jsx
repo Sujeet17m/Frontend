@@ -1,17 +1,12 @@
-import React from 'react'
-import Navbar from './Components/Navbar';
-import SecondPage from './Components/SecondPage';
+import React from "react";
+import Card from "./Components/Card";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, React!</h1>
-      <Navbar />
-      <SecondPage />
-
+      <Card />
     </div>
-    
-  )
+  );
 }
 
 export default App;
